@@ -244,43 +244,61 @@ body {
 }
 
 .additional-info {
-  flex: 1 1 40%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
 }
 
 .additional-info__education {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
   margin-bottom: 20px;
 }
 
 .additional-info__education-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .additional-info__education-university-durability {
   color: var(--durability-text-color);
-  text-align: left;
-  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 20px;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
-  text-align: left;
+  text-align: justify;
   margin-bottom: 10px;
 }
 
 .additional-info__education-university-name {
   color: var(--secondary-text-color);
+  text-decoration-color: var(--text-decoration-color);
+  text-decoration-line: underline;
+  text-align: center;
+}
+
+.additional-info__education-university-location {
+  color: var(--secondary-text-color);  
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .additional-info__languages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
   margin-bottom: 20px;
 }
 
 .additional-info__languages-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
