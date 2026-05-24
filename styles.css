@@ -164,6 +164,12 @@ body {
   text-align: justify;
 }
 
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
@@ -172,7 +178,7 @@ body {
 
 .skills__text {
   color: var(--secondary-text-color);
-  text-align: justify;
+  text-align: center;
 }
 
 
